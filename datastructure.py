@@ -1,6 +1,6 @@
 
 
-def callfunction(arr,d,n):
+def LeftRotation(arr,d,n):
     for i in range(d):
         arr.append(arr[i])
     for j in range(d):
@@ -13,6 +13,6 @@ n,d=map(int,input().rstrip().split())
 arr=[int(input()) for i in range(n)]
 
 
-callfunction(arr,d,n)
+LeftRotation(arr,d,n)
 
 
